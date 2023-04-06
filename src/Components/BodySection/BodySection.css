@@ -46,7 +46,7 @@
 .productsCardParent{
     overflow: hidden;
     margin-top: 2rem;
-    gap: 1rem;
+    gap: 0.5rem;
     display: flex;
     justify-content:space-evenly;
     height: 100%;
