@@ -1,0 +1,17 @@
+.banner{
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+@media screen and (max-width: 480px){
+    .banner{
+        font-size: 12px;
+    }
+}

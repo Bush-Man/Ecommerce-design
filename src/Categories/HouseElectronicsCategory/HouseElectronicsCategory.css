@@ -1,0 +1,61 @@
+.houseElectronicsContainer{
+display: flex;
+flex-direction: column;
+overflow: hidden;
+height: 23rem;
+width: 100%;
+position: relative;
+
+}
+.houseElectronicsModal{
+display: flex;
+align-items: center;
+overflow-x: scroll;
+gap: 2rem;
+height: 20rem;
+padding:  1rem 2rem;
+
+}
+.houseElectronicImg{
+height: 160px !important;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.houseElectronicCard{
+min-width:10rem ;
+background-color: var(--cardColor);
+height: 82%;
+border: none;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+font-size: 12px;
+}
+.houseElectronicCard:hover{
+    cursor: pointer;
+     box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+-webkit-box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+-moz-box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+}
+.houseElectonicInfo{
+padding-left: 5px;
+padding-top:5px ;
+gap: 0.5rem;
+ display: flex;
+    flex-direction: column;
+    
+
+}
+.btnHouseElectronicCard{
+font-size: 12px;
+   padding: 10px 13px;
+   display: flex;
+   align-self: center;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   background: navy;
+
+}

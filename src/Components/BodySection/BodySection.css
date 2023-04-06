@@ -1,0 +1,94 @@
+.bodySection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    padding: 0rem 1rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.catContainerDiv{
+    display: flex;
+    
+    width: 100%;
+    margin-top: 3rem;
+    gap: 1rem;
+    
+    height: 100%;
+}
+.catContainerDivLeft{
+    display: flex;
+    flex: 8;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    row-gap: 1rem;
+   
+    
+}
+.catContainerDivRight{
+    flex: 2;
+}
+.catCardParent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 48%;  
+    background-color: white;
+    gap: 0.5rem;
+    border-radius: 5px;
+}
+.productsContainerDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.productsCardParent{
+    overflow: hidden;
+    margin-top: 2rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width: 480px){
+    .catContainerDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .catContainerDivLeft{
+        display: flex;
+        overflow-x: scroll;
+         width: 100%;
+    }
+    .catCardParent{
+        display: flex;
+        flex-wrap: nowrap;
+         overflow-x: scroll;
+          width: 100%;
+          
+         
+    }
+    .catCardParent::-webkit-scrollbar{
+    display: none;
+  }
+  .productsCardParent{
+    overflow: hidden;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0;
+    margin: 0; 
+    row-gap: 0.5rem;
+    column-gap: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    
+    
+}
+}

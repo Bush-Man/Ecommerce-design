@@ -1,0 +1,133 @@
+.navBar{
+    position: sticky;
+    top: 0;
+border: none;
+height: 60px;
+width: 100%;
+display: flex;
+gap: 1rem;
+align-items: center;
+padding: 0rem 1rem;
+color: white;
+background-color: var(--mainColor);
+z-index: 999;
+}
+/*--Navbar Right side--*/
+.leftSide{
+    flex: 1;
+}
+.logo{
+    color: white;
+    border: none;
+    
+    font-size: 17px;
+    padding: 2px 5px;
+   
+
+    
+}
+/*--Navbar Center Part--*/
+.centerPart{
+    flex: 5;
+    display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.searchBar{
+    outline: none;
+    border: none;
+    backdrop-filter: blur(1200px);
+    background: rgba(226, 225, 225, 0.205);
+    width: 100%;
+   padding: 10px ;
+   color: white;
+  
+}
+.searchBar::placeholder{
+    color: rgb(156, 156, 156);
+}
+.btnSearch{
+    border: none;
+    color: white;
+    padding: 0px 10px;
+    font-weight: bold;
+    border-radius:5px ;
+     backdrop-filter: blur(100px);
+    background: rgba(255, 255, 255, 0.205);
+}
+.btnSearch:hover{
+    cursor:pointer;
+    backdrop-filter: blur(100px);
+    background: rgba(226, 225, 225, 0.205);
+}
+/*--Navbar Right Part--*/
+.rightPart{
+    flex: 3;
+    display: flex;
+    justify-content: space-around;
+}
+.cartContainer{
+    display: flex;
+    position: relative;
+}
+.cartAmnt{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: red;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    top: -8px;
+    left: 16px;
+    
+}
+
+.btnAuth{
+    padding:2px 10px;
+    font-weight: bold;
+    color: navy;
+    cursor: pointer;
+}
+.btnSell{
+    padding:2px 10px;
+    color: navy;
+    font-weight: bold;
+    cursor: pointer;
+}
+.selectBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+@media screen and (max-width: 480px) {
+ .navBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+ }
+ .leftSide{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+ }
+ .centerPart{
+    width: 100%;
+ }
+ .rightPart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+ }
+}

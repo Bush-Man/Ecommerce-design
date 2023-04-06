@@ -1,0 +1,18 @@
+.menCat{
+display: grid;
+grid-template-columns: 50% 2fr;
+height: inherit;
+max-width: 100%;
+}
+
+.menCat a{
+    text-decoration: none;
+    color:black;  
+    list-style: none;
+    font-size: small;
+    margin: 2px 0px;
+}
+.menCat a:hover{
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,40 @@
+.horizontalCard{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    gap: 5px;
+    padding: 1rem;
+
+}
+.horizontalCard>h3{
+  padding-left:5px ;
+}
+.horizontalCardContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+}
+
+@media screen and (max-width: 480px){
+  .horizontalCard{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    gap: 5px;
+    padding: 1rem;
+  
+}
+.horizontalCardContainer{
+   overflow-x: scroll;
+   display: flex;
+   gap: 1px;
+}
+.horizontalCardContainer::-webkit-scrollbar{
+  display: none;
+}
+}

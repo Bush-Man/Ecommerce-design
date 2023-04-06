@@ -1,0 +1,68 @@
+.LPCategoryContainer{
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 1rem 0rem;
+position: relative;
+
+
+
+
+
+}
+.landsContainer{
+    display: flex;
+    align-items: center;
+   
+    padding: 1rem 2rem ;
+    
+    gap: 2rem;
+    
+    height: inherit;
+    
+    
+    
+    
+    
+}
+.singleLandCard{
+ box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+-webkit-box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+-moz-box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+display: flex;
+
+align-items: center;
+justify-content: space-between;
+min-width: 20rem;
+
+font-size: 12px;
+
+border-radius: 5px;
+
+
+
+}
+.singleLandCard:hover{
+    cursor: pointer;
+}
+.landInfo{
+    padding-left:5px;
+
+}
+
+.landImg{
+    height: 100px !important;
+    max-width: 140px;
+   
+    
+    border-radius: 5px;
+    object-fit: cover;
+}
+.btnLandCard{
+   font-size: 10px;
+   border: none;
+   border-bottom: 1px solid red;
+   color: red;
+   background: white;
+
+}

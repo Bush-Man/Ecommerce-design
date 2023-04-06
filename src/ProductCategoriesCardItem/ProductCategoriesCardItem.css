@@ -1,0 +1,6 @@
+.catItem>img{
+    width: 6rem;
+}
+.catItem:hover{
+    cursor: pointer;
+}

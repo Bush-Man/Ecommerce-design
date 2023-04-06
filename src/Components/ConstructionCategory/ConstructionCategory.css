@@ -1,0 +1,63 @@
+.constProdContainer{
+display: flex;
+flex-direction: column;
+overflow-x: hidden;
+height: 23rem;
+width: 100%;
+position: relative;
+
+}
+
+.constProdModal{
+
+display: flex;
+align-items: center;
+overflow-x: scroll;
+gap: 1rem;
+height: 20rem;
+padding:  1rem 2rem;
+
+}
+.materialImg{
+    height: 160px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.materialCard{
+min-width:10rem ;
+background-color: var(--cardColor);
+height: 82%;
+border: none;
+cursor: pointer;
+display: flex;
+flex-direction: column;
+font-size: 12px;
+}
+.materialCard:hover{
+    cursor: pointer;
+     box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+-webkit-box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+-moz-box-shadow: 0px 0px 9px 3px rgba(168,110,110,0.24);
+}
+.materialInfo{
+padding-left: 5px;
+padding-top:5px ;
+
+ display: flex;
+    flex-direction: column;
+    
+
+}
+.btnMaterialCard{
+font-size: 12px;
+   padding: 10px 13px;
+   display: flex;
+   align-self: center;
+   border: none;
+   border-radius: 5px;
+   color: white;
+   background: navy;
+
+}

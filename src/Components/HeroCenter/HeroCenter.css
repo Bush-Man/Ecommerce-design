@@ -1,0 +1,16 @@
+.sliderContainer{
+    display: flex;
+    
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    
+}
+.sliderImg{
+    object-fit: contain;
+    overflow-x:scroll;
+    height: 100%;
+}
+.sliderContainer::-webkit-scrollbar{
+    display: none;
+  }

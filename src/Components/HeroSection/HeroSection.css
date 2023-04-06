@@ -1,0 +1,78 @@
+.heroSection{
+height: calc(81vh - 60px);
+width: 100%;
+
+}
+.hero{
+    height: 100%;
+    background: rgb(131,58,180);
+     background: linear-gradient(3deg, rgba(131, 45, 148, 0.973) 6%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%);
+    display: flex;
+    position: relative;
+    width: inherit;
+    justify-content: space-around;
+    overflow: hidden;
+     
+    }
+    .heroLeft{
+        background-color: white;
+        flex: 1.5;
+        border-radius: 5px;
+        height: 90%;
+        margin: 1rem;
+        z-index: 700;
+        padding: 1rem;
+
+
+        
+    }
+    .horizontal{
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+        border-top:1px solid rgb(209, 207, 207) ;
+        border-bottom:1px solid rgb(209, 207, 207) ;
+        gap: 1rem;
+        padding: 0.50rem;
+    }
+    .horizontal span{
+        font-size: 10px;
+        cursor: pointer;
+        padding: 0px 1rem;
+        font-weight: bold;
+    }
+    .horizontal>span:nth-of-type(2){
+        border-left: 1px solid rgb(209, 207, 207);
+        border-right: 1px solid rgb(209, 207, 207);
+        
+    }
+    .heroCenter{
+      background-color: white;
+      height: 100%;
+      margin: 0.5rem;
+      flex: 6;
+      
+      z-index: 700;
+      border-radius: 5px;
+      max-width: 950px;
+      overflow: hidden;
+      display: flex;
+    }
+    .heroRight{
+         background-color: white;
+        flex: 1.5;
+        border-radius: 5px;
+        height: 90%;
+        margin: 1rem;
+        z-index: 700;
+        
+    }
+ @media screen and (max-width: 480px) {
+ .heroSection{
+    display: none;
+ }
+}
+
+
+
+

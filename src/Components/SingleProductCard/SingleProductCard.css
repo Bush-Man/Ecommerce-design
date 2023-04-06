@@ -1,0 +1,5 @@
+.singleProductCard>img{
+    width: 10rem;
+    object-fit: contain;
+    border-radius: 5px;
+}

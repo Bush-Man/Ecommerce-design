@@ -1,0 +1,62 @@
+.circleMorphismContainer{
+    position: relative;
+    z-index: -999;
+}
+.glassMorphismA{
+    width: 5rem;
+    height: 5rem;
+    top: 10rem;
+    
+    left: 17.5rem;
+    position: absolute;
+    
+box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.37);
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 50%;
+border: none;
+}
+.glassMorphismB{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 4rem;
+    
+right: 17rem;
+box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.37);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border-radius: 50%;
+
+}
+.circleMorphismC{
+    width: 5rem;
+    height: 5rem;
+    left: 6rem;
+    
+    
+    
+    border-radius: 50%;
+    position: absolute;
+    
+    
+box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.37);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+
+
+}
+.circleMorphismD{
+    width: 5rem;
+    height: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    position: absolute;
+    
+box-shadow: 0 8px 32px 0 rgba(252, 252, 252, 0.37);
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+
+
+}
+

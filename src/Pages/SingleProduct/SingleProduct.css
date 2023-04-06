@@ -1,0 +1,238 @@
+.parentDiv{
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    max-width: 100%;
+    padding: 2rem 1rem;
+    
+    
+}
+
+
+.prodWrapper{
+    display: flex;
+    gap: 2rem;
+    
+    
+}
+.otherInfo{
+    flex: 3;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden;
+}
+.prodRight{
+    position: relative;
+    
+}
+.prodRight span{
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    padding: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.prodDesc{
+    font-size: 25px;
+}
+
+.prodCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex: 7;
+    
+}
+.prodCenterWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.prodRate{
+    display: flex;
+    gap: 2rem;
+}
+.priceDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 54%;
+    align-items: center;
+}
+.newPric{
+    font-size: 27px !important;
+    font-weight: bold; 
+}
+.oldPric{
+  font-size: 14px !important;
+  font-weight:600;
+  text-decoration: line-through;
+  color: grey;
+}
+.prctOff{
+    font-weight: 500;
+    font-size: 15px !important;
+}
+.priceDiv span{
+    font-size: 15px;
+}
+.rateValDes{
+    background-color: green;
+    padding: 1px 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 2px;
+    justify-content: space-between;
+
+
+
+
+}
+.quantity{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.quantity>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap:5px;
+    
+    font-size: 15px;
+    font-weight: bold;
+}
+.quantity>div span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    cursor: pointer;
+    padding: 6px 8px;
+    font-weight: bolder;
+
+}
+.prodInfo{
+    display:flex ;
+    flex-direction: column;
+    
+    width: 50%;
+}
+.prodInfo h3{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.prodInfo div{
+    display: flex;
+    
+    font-size: 11px;
+
+}
+.prodInfo div span:nth-child(1){
+    flex: 1;
+}
+.prodInfo div span:nth-child(2){
+    display: flex;
+    flex: 2;
+    text-align: left;
+    align-self: flex-start;
+    color: green;
+}
+
+.prodBottom{
+    display: flex;
+    justify-content: space-between;
+}
+.btnCart{
+    background-color: var(--mainColor);
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+
+}
+.btnBuy{
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    gap: 3rem;
+    padding: 0rem 2rem;
+    
+}
+.feedBacks{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.revCard{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: 1px solid rgb(228, 225, 225);
+    width: 90%;
+    padding-top: 1.6rem;
+}
+
+.revCardTop{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.revCardTop>img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    object-fit: cover;
+}
+.revCardTop>div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.ratingStarsCard>img{
+    width: 10px;
+}
+.revCardBtm>p{
+  padding-left: 4rem;
+  padding-right: 1rem;
+}
+
+@media screen and (max-width: 480px){
+.parentDiv{
+    padding: 10px;
+    width: 100%;
+}
+.prodWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.revCard{
+    width: 100%;
+   
+}
+.reviews{
+    padding: 10px;
+    max-width: 100%;
+}
+.revCardBtm>p{
+  padding: 0;
+  width: 100%;
+}
+}
