@@ -1,5 +1,6 @@
 .catItem>img{
     width: 6rem;
+    padding-left: 8px;
 }
 .catItem:hover{
     cursor: pointer;

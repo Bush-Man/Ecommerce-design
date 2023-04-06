@@ -84,13 +84,13 @@
     margin-top: 2rem;
     width: 100%;
     padding: 0;
-    margin: auto; 
-    gap: 1rem;
+    
+    
     
     display: flex;
     flex-wrap: wrap;
     height: 100%;
-    justify-content: stretch;
+    justify-content: center;
     
     
 }
